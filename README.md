@@ -86,6 +86,10 @@ poetry run python stock_tax_estimator.py 150000 50000 --year 2025 --filing-statu
 poetry run python stock_tax_estimator.py 500000 1000000 --year 2026 --state TX
 ```
 
+**Example output:**
+
+![Example estimator output](images/example.png)
+
 ## Testing
 
 The project includes a pytest test suite in [tests/test_tax_data.py](tests/test_tax_data.py) that covers both the integrity of the generated `tax_data.yaml` and the correctness of the calculation functions.
