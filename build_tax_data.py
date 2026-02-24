@@ -18,7 +18,7 @@ from typing import Optional
 
 import yaml
 
-DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "tax_csv_files")
 
 # ---------------------------------------------------------------------------
 # CSV filename map
